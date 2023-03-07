@@ -6,7 +6,7 @@ Attribute
 
 Attribute is use to tag in style to the attribute.
 
-```
+```md040
 <a href="https://www.w3schools.com">Visit W3Schools</a>
 <img src="img_girl.jpg" width="500" height="600">
 <p style="color:red;">This is a red paragraph.</p>

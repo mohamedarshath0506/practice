@@ -6,7 +6,7 @@ Elements
 
 elements mean open tag and close tag inside the content to elements
 
-```
+```md040
 <!DOCTYPE html>
 <html>
 <body>

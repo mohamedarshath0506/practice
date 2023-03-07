@@ -6,7 +6,7 @@ Basic method
 
 i am using basic html use in h1 tag heading content p tag is a content a tag is a link use and imag tag use attributes width and hegiht in image.
 
-```
+```md040
 <!DOCTYPE html>
 <html>
 <body>

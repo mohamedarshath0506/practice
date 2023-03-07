@@ -6,7 +6,7 @@ Style
 
 The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
 
-```
+```md040
 <body>
 <h1 style="color:blue;">This is a heading</h1>
 <p style="color:red;">This is a paragraph.</p>
