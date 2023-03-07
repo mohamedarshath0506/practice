@@ -7,6 +7,9 @@ Color
 You can set the color of text, You can set the color of borders,elements have their background color set with RGBA and HSLA values,
 
 ```md040
+<!DOCTYPE html>
+<html>
+<body>
 <h1 style="color:Tomato;">Hello World</h1>
 <p style="color:DodgerBlue;">Lorem ipsum...</p>
 <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
@@ -18,4 +21,6 @@ You can set the color of text, You can set the color of borders,elements have th
 <h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
 <h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
 <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
+</body>
+</html>
 ```

@@ -7,6 +7,9 @@ Comments
 HTML single line and multy line comments are not displayed in the browser, but they can help document your HTML source code.
 
 ```md040
+<!DOCTYPE html>
+<html>
+<body>
 <!-- Write your comments here -->
 <!-- This is a comment -->
 <p>This is a paragraph.</p>
@@ -21,4 +24,6 @@ HTML single line and multy line comments are not displayed in the browser, but t
 -->
 <p>This is a paragraph too.</p>
 <p>This <!-- great text --> is a paragraph.</p>
+</body>
+</html>
 ```
