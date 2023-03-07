@@ -10,20 +10,7 @@ The src attribute specifies the path (URL) to the image.You can use the style at
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-img {
-  width: 100%;
-}
-p {
-  background-image: url('img_girl.jpg');
-}
-body {
-  background-image: url('img_girl.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: 100% 100%;
-}
-</style>
+
 </head>
 <body>
 <img src="img_chania.jpg" alt="Flowers in Chania" width="460" height="345">
@@ -45,6 +32,20 @@ where it is specified. (Try resizing the<br>
 browser window to see how the<br>
 background image behaves.
 </p>
+<style>
+img {
+  width: 100%;
+}
+p {
+  background-image: url('img_girl.jpg');
+}
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+</style>
 </body>
 </html>
 ```

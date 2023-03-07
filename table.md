@@ -10,12 +10,7 @@ A table in HTML consists of table cells inside rows and columns.
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-</style>
+
 </head>
 <body>
 
@@ -75,6 +70,13 @@ table, th, td {
 </table>
 
 <p><b>Note:</b> The table columns does not collapse properly in Safari browsers.</p>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
 </body>
 </html>
 
