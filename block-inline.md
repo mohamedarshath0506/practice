@@ -4,9 +4,9 @@ Block and Inline
 
 ## Description
 
-The div tag element is a block-level and is often used as a container for other HTML elements.
+The div tag element is a block-level and is often used as a container for other HTML elements (full width).
 
-The span tag element is an inline container used to mark up a part of a text, or a part of a document.
+The span tag element is an inline container used to mark up a part of a text, or a part of a document (content width only).
 
 ```md040
 <!DOCTYPE html>
