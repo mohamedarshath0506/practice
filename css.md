@@ -4,9 +4,9 @@ CSS
 
 ## Description
 
-* Inline - by using the style attribute inside HTML elements
-* Internal - by using a style element in the head section
-* External - by using a link element to link to an external CSS file.
+Inline - by using the style attribute inside HTML elements
+Internal - by using a style element in the head section
+External - by using a link element to link to an external CSS file.
 
 ```md040
 attribute

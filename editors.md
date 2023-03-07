@@ -4,7 +4,7 @@ Editors
 
 ## Description
 
-* Edit content in tag method
+Edit content in tag method
 
 ```md040
 <!DOCTYPE html>

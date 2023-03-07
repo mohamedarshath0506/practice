@@ -4,7 +4,7 @@ Elements
 
 ## Description
 
-* elements mean open tag and close tag inside the content to elements
+elements mean open tag and close tag inside the content to elements
 
 ```md040
 <!DOCTYPE html>
