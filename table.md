@@ -12,7 +12,11 @@ A table in HTML consists of table cells inside rows and columns.
 <html>
 <style>
 table, th, td {
-  border:1px solid black;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
 }
 </style>
 <body>
