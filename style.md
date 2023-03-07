@@ -4,7 +4,7 @@ Style
 
 ## Description
 
-The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+* The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
 
 ```md040
 <body>

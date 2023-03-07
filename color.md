@@ -4,7 +4,7 @@ Color
 
 ## Description
 
-You can set the color of text, You can set the color of borders,elements have their background color set with RGBA and HSLA values,
+* You can set the color of text, You can set the color of borders,elements have their background color set with RGBA and HSLA values,
 
 ```md040
 <h1 style="color:Tomato;">Hello World</h1>

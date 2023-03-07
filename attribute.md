@@ -4,7 +4,7 @@ Attribute
 
 ## Description
 
-Attribute is use to tag in style to the attribute.
+* Attribute is use to tag in style to the attribute.
 
 ```md040
 <a href="https://www.w3schools.com">Visit W3Schools</a>

@@ -4,7 +4,7 @@ Quotation
 
 ## Description
 
-The HTML blockquote element defines a section that is quoted from another source.the q tag defines a short quotation. abbr tag defines an abbreviation or an acronym dot method.address tag defines the contact information for the and use to br tag is used in break. cite element usually renders in italic.bdo tag is used to override the current text direction:
+* The HTML blockquote element defines a section that is quoted from another source.the q tag defines a short quotation. abbr tag defines an abbreviation or an acronym dot method.address tag defines the contact information for the and use to br tag is used in break. cite element usually renders in italic.bdo tag is used to override the current text direction:
 
 ```md040
 <p>Here is a quote from WWF's website:</p>

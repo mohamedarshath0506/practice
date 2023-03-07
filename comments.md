@@ -4,7 +4,7 @@ Comments
 
 ## Description
 
-HTML single line and multy line comments are not displayed in the browser, but they can help document your HTML source code.
+* HTML single line and multy line comments are not displayed in the browser, but they can help document your HTML source code.
 
 ```md040
 <!-- Write your comments here -->
