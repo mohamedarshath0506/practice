@@ -1,0 +1,42 @@
+# Title
+
+Classes
+
+## Description
+
+The class name can also be used by JavaScript to perform certain tasks for specific elements.
+
+JavaScript can access elements with a specific class name with the getElementsByClassName() method.
+
+```md040
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Use of The class Attribute in JavaScript</h2>
+<p>Click the button to hide all elements with class name "city":</p>
+
+<button onclick="myFunction()">Hide elements</button>
+
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+<script>
+function myFunction() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
+
+```
