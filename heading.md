@@ -1,12 +1,8 @@
-# Title
+# Heading
 
-Heading
+six type of heading tag `h1` to `h6` tag and difference size of the six tag in html. this tag using the body. the tag is block method use in full width. the `h1` to `h6` tag.
 
-## Description
-
-six type of heading tag h1 to h6 tag and difference size of the six tag in html. this tag using the body. the tag is block method use in full width. the h1 to h6 tag.
-
-```md040
+```html
 <!DOCTYPE html>
 <html>
 <body>
