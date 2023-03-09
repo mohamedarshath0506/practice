@@ -1,16 +1,16 @@
-# Title
+# HTML Links
 
-Links
+attribute of the `<a>` element is the `href` attribute, which indicates the link's destination.
 
-## Description
+The `target` attribute can have one of the following values.
 
-HTML Links - Syntax a> tag defines a hyperlink. HTML Links - The target Attribute, Both examples above are using an absolute URL (a full web address) in the href attribu.To use an image as a link, just put the img tag inside the a tag, inside the href attribute to create a link that opens the user's email program.To use an HTML button as a link, you have to add some JavaScript code.The title attribute specifies extra information about an element.
+To use an image as a link, just put the `<img>` tag inside
 
-```md040
+such as a click of a button.
 
-<!DOCTYPE html>
-<html>
-<body>
+A link can also be styled as a button, by using CSS.
+
+```html
 
 <a href="url">link text</a>
 <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
@@ -32,8 +32,34 @@ HTML Links - Syntax a> tag defines a hyperlink. HTML Links - The target Attribut
 
 <button onclick="document.location='default.asp'">HTML Tutorial</button>
 
+```
+
+```css
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+</head>
+<body>
+
+<h2>Link Button</h2>
+<p>A link styled as a button:</p>
+<a href="default.asp" target="_blank">This is a link</a>
+
 </body>
 </html>
-
 
 ```

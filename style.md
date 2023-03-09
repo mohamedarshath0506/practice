@@ -1,4 +1,4 @@
-# Style
+# HTML Style
 
 The CSS `background-color` property defines the background color for an HTML element.
 
@@ -10,7 +10,7 @@ The CSS `font-size` property defined the font-size the text to HTML element.
 
 The CSS `text-align` property defined the horizontal text alignment for an HTML element.
 
-```html
+```css
 <h1 style="background-color:powderblue;">This is a heading</h1>
 <p style="background-color:tomato;">This is a paragraph.</p>
 <h1 style="color:blue;">This is a heading</h1>

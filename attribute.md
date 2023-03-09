@@ -1,4 +1,4 @@
-# Attribute
+# HTML Attribute
 
 The style attribute is used to add styles to an element, such as color, font, size, and more.
 
@@ -10,7 +10,9 @@ HTML images defined with `<img>` tag. The source file `scr` text `alt` `width` a
 
 <a href="https://www.w3schools.com">Visit W3Schools</a>
 <img src="img_girl.jpg" width="500" height="600">
-<p style="color:red;">This is a red paragraph.</p>
 <p title=About W3Schools>
+```
 
+```css
+<p style="color:red;">This is a red paragraph.</p>
 ```

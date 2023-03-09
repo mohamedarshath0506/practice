@@ -1,25 +1,32 @@
-# Title
+# HTML CSS
 
-CSS
+Inline - by using the `style` attribute inside HTML elements.
 
-## Description
+Internal - by using a `<style>` element in the `<head>` section.
 
-Inline - by using the style attribute inside HTML elements
+External - by using a `<link>` element to link to an external CSS file.
 
-Internal - by using a style element in the head section
+```html
 
-External - by using a link element to link to an external CSS file.
+Inline CSS
 
-```md040
-attribute
 <!DOCTYPE html>
 <html>
 <body>
+
 <h1 style="color:blue;">A Blue Heading</h1>
+
 <p style="color:red;">A red paragraph.</p>
+
 </body>
 </html>
-style element in the head
+
+```
+
+```html
+
+Internal CSS
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,21 +37,34 @@ p    {color: red;}
 </style>
 </head>
 <body>
+
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
+
 </body>
 </html>
-link element to link to an external CSS
+```
+
+```html
+
+External CSS
+
 <!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
+
 </body>
 </html>
+
+```
+
+```css
 body {
   background-color: powderblue;
 }

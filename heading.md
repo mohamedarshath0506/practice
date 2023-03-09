@@ -1,4 +1,4 @@
-# Heading
+# HTML Heading
 
 HTML headings defined with the `<h1>` to `<h6>` tags.
 

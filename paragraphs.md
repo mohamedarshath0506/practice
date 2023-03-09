@@ -1,4 +1,4 @@
-# Paragraphs
+# HTML Paragraphs
 
 element defines a paragraph use the content is use to `<p>` tag.
 

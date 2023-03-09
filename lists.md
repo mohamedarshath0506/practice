@@ -1,23 +1,34 @@
-# Title
+# HTML List
 
-List
+unordered list starts with the `<ul>` tag. Each list item starts with the `<li>` tag.
 
-## Description
+ordered list starts with the `<ol>` tag. Each list item starts with the `<li>` tag.
 
-The unordered list starts with the ul tag.Lists can be nested (list inside list).The ordered list starts with the ol tag.dl tag defines the description list, the dt tag defines the term (name), and the dd tag describes each term:
+The `<dl>` tag defines the description list, the `<dt>` tag defines the term (name), and the `<dd>` tag describes each term.
 
-```md040
-<!DOCTYPE html>
-<html>
-<body>
+the HTML `<ul>` element to define an unordered list.the HTML `<li>` element to define a list item.Lists can be `nested`.
 
-<h2>An unordered HTML list</h2>
+the HTML `<ol>` element to define an ordered list.Use the HTML `<li>` element to define a list item.Lists can be `nested`.
 
+```html
 <ul>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
-</ul> 
+</ul>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
 
 <ul>
   <li>Coffee</li>
@@ -32,12 +43,6 @@ The unordered list starts with the ul tag.Lists can be nested (list inside list)
 
 <ol>
   <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
-
-<ol>
-  <li>Coffee</li>
   <li>Tea
     <ol>
       <li>Black tea</li>
@@ -47,14 +52,5 @@ The unordered list starts with the ul tag.Lists can be nested (list inside list)
   <li>Milk</li>
 </ol>
 
-<dl>
-  <dt>Coffee</dt>
-  <dd>- black hot drink</dd>
-  <dt>Milk</dt>
-  <dd>- white cold drink</dd>
-</dl>
-
-</body>
-</html>
-
 ```
+

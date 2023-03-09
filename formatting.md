@@ -1,4 +1,4 @@
-# Formatting
+# HTML Formatting
 
 The HTML `<b>` and `<strong>` element defines Bold and Important text,
 

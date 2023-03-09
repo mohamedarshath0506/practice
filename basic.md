@@ -1,4 +1,4 @@
-# Basic
+# HTML Basic
 
 All HTML documents must start with a document type `<!Doctype html>`.
 

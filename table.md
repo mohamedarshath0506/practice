@@ -1,82 +1,118 @@
-# Title
+# HTML Table
 
-Table
+Set the background color of the three columns with the `<colgroup>` and `<col>` tags.
 
-## Description
+Each table row starts with a `<tr>` and ends with a `</tr>` tag. the text in `<th>` elements are bold and centered, but you can change that with CSS.
 
-A table in HTML consists of table cells inside rows and columns.
+Table header cells. In those cases use the `<th>` tag instead of the `<td>` tag.
 
-```md040
+Table cell is defined by a `<td>` and a `</td>` tag.
+
+An HTML table with a `<thead>`, `<tbody>`, and a `<tfoot>` element.
+
+set the size of a specific column, add the `style` attribute on a `<th>` or `<td>` element.
+
+the height of a specific row, add the `style` attribute on a table row element.
+
+make a cell span over multiple columns, use the `colspan` attribute.
+
+make a cell span over multiple rows, use the `rowspan` attribute:
+
+others sides with the `padding-top` `padding-bottom`, `padding-left`, and `padding-right` properties.
+
+table cells, use the CSS `border-spacing` property on the `table` element.
+
+To style every other table row element, use the `:nth-child(even)` selector.
+
+The `<colgroup>` element should be used as a container for the column specifications.
+
+Each group is specified with a `<col>` element.
+
+The `span` attribute specifies how many columns that get the style.
+
+The `style` attribute specifies the style to give the columns.
+
+```html
 <!DOCTYPE html>
 <html>
-<head>
-
-</head>
-<body>
-
-<h2>Hide Columns</h2>
-<p>You can hide specific columns with the visibility property:</p>
-
-<table style="width: 100%;">
-<colgroup>
-    <col span="2">
-    <col span="3" style="visibility: collapse">
-  </colgroup>
-<tr>
-<th>MON</th>
-<th>TUE</th>
-<th>WED</th>
-<th>THU</th>
-<th>FRI</th>
-<th>SAT</th>
-<th>SUN</th>
-</tr>
-<tr>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>6</td>
-<td>7</td>
-</tr>
-<tr>
-<td>8</td>
-<td>9</td>
-<td>10</td>
-<td>11</td>
-<td>12</td>
-<td>13</td>
-<td>14</td>
-</tr>
-<tr>
-<td>15</td>
-<td>16</td>
-<td>17</td>
-<td>18</td>
-<td>19</td>
-<td>20</td>
-<td>21</td>
-</tr>
-<tr>
-<td>22</td>
-<td>23</td>
-<td>24</td>
-<td>25</td>
-<td>26</td>
-<td>27</td>
-<td>28</td>
-</tr>
-</table>
-
-<p><b>Note:</b> The table columns does not collapse properly in Safari browsers.</p>
-
 <style>
 table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
+  border:1px solid black;
 }
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+table {
+  border-spacing: 30px;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
 </style>
+<body>
+
+<h2>TH elements define table headers</h2>
+
+<table style="width:100%">
+
+<caption>Monthly savings</caption>
+
+<colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+
+  <tr style="width:70%">
+    <th colspan="2">Person 1</th>
+    <th>Person 2</th>
+    <th>Person 3</th>
+  </tr>
+  <tr style="height:200px">
+    <td rowspan="2">Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>14</td>
+    <td>10</td>
+  </tr>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+</table>
+
+<p>To understand the example better, we have added borders to the table.</p>
+
 </body>
 </html>
 
