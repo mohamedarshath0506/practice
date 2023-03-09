@@ -1,27 +1,48 @@
-# Title
+# HTML Head
 
-Head
+The HTML `<head>` element is a container for the following elements. `<title>`, `<style>`, `<meta>`, `<link>`, `<script>`, and `<base>`.
 
-## Description
+The `<head>` element is a container for metadata (data about data).
 
-HTML head element is a container for the following elements: title, style, meta, link and script
+The `<style>` element is used to define style information for a single HTML page.
 
-```md040
+The `<link>` tag is most often used to link to external style sheets.
+
+The `<meta>` element is typically used to specify the character set, page description, keywords, author of the document.
+
+The `<script>` element is used to define client-side JavaScripts.
+
+The `<title>` element is required in HTML documents.
+
+The `<base>` element specifies the base URL and/or target for all relative URLs in a page.
+
+```html
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Page Title</title>
-  <meta name="description" content="Free Web tutorials">
-  <link rel="stylesheet" href="mystyle.css">
-  <style>
+ 
+ <title>Page Title</title>
+ 
+ <meta name="description" content="Free Web tutorials">
+ 
+ <link rel="stylesheet" href="mystyle.css">
+ 
+ <style>
     body {background-color: powderblue;}
     h1 {color: red;}
     p {color: blue;}
   </style>
+
+ <base href="https://www.w3schools.com/" target="_blank">
+
+  <script>
+  function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+  }
+  </script>
+
 </head>
 <body>
-
-<p>All meta information goes inside the head section.</p>
 
 </body>
 </html>

@@ -1,32 +1,44 @@
-# Title
+# HTML Classes
 
-Classes
+three `<div>` elements with a class attribute with the value of "city". All of the three `<div>` elements will be styled equally according to the .city style.
 
-## Description
+syntax for `class` is: write a hash character (.), followed by an class name. Then, define the CSS properties within curly braces {}.
 
-The class name can also be used by JavaScript to perform certain tasks for specific elements.
+JavaScript can access elements with a specific class name with the `getElementsByClassName()` method.
 
-JavaScript can access elements with a specific class name with the getElementsByClassName() method.
-
-```md040
+```html
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+</head>
 <body>
 
-<h2>Use of The class Attribute in JavaScript</h2>
-<p>Click the button to hide all elements with class name "city":</p>
+<div class="city">
+<h2>London</h2>
+<p>London is the capital of England.</p>
+</div> 
+
+<div class="city">
+<h2>Paris</h2>
+<p>Paris is the capital of France.</p>
+</div>
+
+<div class="city">
+<h2>Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+</div>
 
 <button onclick="myFunction()">Hide elements</button>
-
-<h2 class="city">London</h2>
-<p>London is the capital of England.</p>
-
-<h2 class="city">Paris</h2>
-<p>Paris is the capital of France.</p>
-
-<h2 class="city">Tokyo</h2>
-<p>Tokyo is the capital of Japan.</p>
-
++
 <script>
 function myFunction() {
   var x = document.getElementsByClassName("city");

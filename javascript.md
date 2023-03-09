@@ -1,12 +1,12 @@
-# Title
+# HTML Javascript
 
-Javascript
+The HTML `<script>` tag is used to define a client-side script (JavaScript).
 
-## Description
+The `<script>` element either contains script statements, or it points to an external script file through the `src` attribute.
 
-Javascript method document.getElementById call id dot value are innerhtml call html sheet onclick button.
+To select an HTML element, JavaScript most often uses the `document.getElementById()` method.
 
-```md040
+```html
 <!DOCTYPE html>
 <html>
 <body>

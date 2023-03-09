@@ -53,4 +53,3 @@ the HTML `<ol>` element to define an ordered list.Use the HTML `<li>` element to
 </ol>
 
 ```
-

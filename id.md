@@ -1,14 +1,12 @@
-# Title
+# HTML Id
 
-Id
+The `id` attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML.
 
-## Description
-
-The id attribute can also be used by JavaScript to perform some tasks for that specific element.
+syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}.
 
 JavaScript can access an element with a specific id with the getElementById() method.
 
-```md040
+```html
 <!DOCTYPE html>
 <html>
 <body>
@@ -27,6 +25,5 @@ function displayResult() {
 
 </body>
 </html>
-
 
 ```
