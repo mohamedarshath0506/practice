@@ -1,21 +1,16 @@
-# Title
+# Attribute
 
-Attribute
+The style attribute is used to add styles to an element, such as color, font, size, and more.
 
-## Description
+HTML link defined with the `<a>` tag. link's destination is specified in the `href` attribute.
 
-Attribute is use to tag in style to the attribute.
+HTML images defined with `<img>` tag. The source file `scr` text `alt` `width` and `height` to attributes.
 
-```md040
-<!DOCTYPE html>
-<html>
-<body>
+```html
 
 <a href="https://www.w3schools.com">Visit W3Schools</a>
 <img src="img_girl.jpg" width="500" height="600">
 <p style="color:red;">This is a red paragraph.</p>
 <p title=About W3Schools>
 
-</body>
-</html>
 ```

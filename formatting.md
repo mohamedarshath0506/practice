@@ -1,24 +1,42 @@
-# Title
+# Formatting
 
-Formatting
+The HTML `<b>` and `<strong>` element defines Bold and Important text,
 
-## Description
+The HTML `<i>` and `<em>` element defined Italic and Emphasized text.
 
-Formatting elements were designed to display special types of text. text b tag - bold, em tag - emphasized, i tag - italic, small tag - small text, strong tag - strong text, sub tag - subscripted text, sup tag - superscripted text small bottom side, ins tag - inserted text, del tag - deleted text markline, mark tag - marked/highlighted text color its all formatting text.
+The HTML `<mark>` element defined be the Marked text.
 
-```md040
-<!DOCTYPE html>
-<html>
-<body>
-<b>This text is bold</b>
-<strong>This text is important!</strong>
-<i>This text is italic</i>
-<em>This text is emphasized</em> 
-<small>This is some smaller text.</small>
-<p>Do not forget to buy <mark>milk</mark> today.</p>
-<p>My favorite color is <del>blue</del> red.</p>
-<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
-<p>This is <sub>subscripted</sub> text.</p>
-</body>
-</html>
+The HTML `<small>` element defined the Smaller text.
+
+The HTML `<del>` element defined the Deleted text.
+
+The HTML `<ins>` element defines a text that has been inserted into a document. Browsers will usually underline inserted text.
+
+The HTML `<sub>` element defines subscript text.
+
+The HTML `<sup>` element defines superscript text.
+
+```html
+
+<p><b>This text is bold.</b></p>
+
+<p><strong>This text is normal.</strong></p>
+
+<p><i>This text is normal.</i></p>
+
+<p><em>This text is normal.</em></p>
+
+<p>This <mark>text</mark> is normal.</p>
+
+<p>This <small>text is normal.</small></p>
+
+<p>This <del>text is</del> normal.</p>
+
+<p><ins>This text</ins> is normal.</p>
+
+<p>This <sub>text is</sub> normal.</p>
+
+<p>This <sup>text is</sup> normal.</p>
+
+
 ```

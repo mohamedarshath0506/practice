@@ -1,12 +1,8 @@
-# Title
-
-Editors
-
-## Description
+# Editors
 
 Edit content in tag method
 
-```md040
+```html
 <!DOCTYPE html>
 <html>
 <body>

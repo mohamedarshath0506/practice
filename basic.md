@@ -1,12 +1,20 @@
-# Title
+# Basic
 
-Basic method
+All HTML documents must start with a document type `<!Doctype html>`.
 
-## Description
+All HTML start tag `<html>` end tad `</html>`.
 
-i am using basic html use in h1 tag heading content p tag is a content a tag is a link use and imag tag use attributes width and hegiht in image.
+All HTML open `<body>` and close `</body>`.
 
-```md040
+HTML headings the defined with the `<h1>` to `<h6>` tags.
+
+HTML paragraphs the defined with the `<p>` tag.
+
+HTML link defined with the `<a>` tag. link's destination is specified in the `href` attribute.
+
+HTML images defined with `<img>` tag. The source file `scr` text `alt` `width` and `height` to attributes.
+
+```html
 <!DOCTYPE html>
 <html>
 <body>

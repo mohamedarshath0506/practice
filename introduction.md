@@ -1,13 +1,9 @@
-# Title
+# Introduction
 
-Introduction
-
-## Description
-
-uses in doctype in version HTML5 document then open html tag in head, body tag head tag in title, link, meta, and sript tags and close head tag.
+uses in doctype in version HTML5 document then open `html` tag in head, `body` tag `head` tag in `title`, `link`, `meta`, and `sript` tags and close `head` tag.
 Next body tag open use in all tag and closeing all tag.
 
-```md040
+```html
 <!DOCTYPE html>
 <html>
 <head>
