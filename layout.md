@@ -1,12 +1,22 @@
-# Title
+# HTML Latout
 
-Latout
+HTML Layout Elements `<header>` - Defines a header for a document or a section.
 
-## Description
+HTML Layout Elements `<nav>` - Defines a set of navigation links.
 
-layouts using the CSS float property. Float is easy to learn - you just need to remember how the float and clear properties work. Disadvantages: Floating elements are tied to the document flow, which may harm the flexibility.
+HTML Layout Elements `<section>` - Defines a section in a document.
 
-```md040
+HTML Layout Elements `<article>` - Defines an independent, self-contained content.
+
+HTML Layout Elements `<aside>` - Defines content aside from the content (like a sidebar).
+
+HTML Layout Elements `<footer>` - Defines a footer for a document or a section.
+
+HTML Layout Elements `<details>` - Defines additional details that the user can open and close on demand.
+
+HTML Layout Elements `<summary>` - Defines a heading for the `<details>` element.
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
